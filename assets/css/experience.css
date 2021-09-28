@@ -13,7 +13,7 @@ html[light-mode="light"] {
 html[light-mode="dark"] {
   --bg1-color: #272727;
   --text-color: #fff;
-  --bg-txt-img: linear-gradient(315deg, #d5adc8 0%, #ff8489 74%);
+  --bg-txt-img: linear-gradient(315deg, #db8330 50%, #eb3f45 50%);
   --txt-fill: transparent;
   --shadow-col1: #191919;
   --shadow-col2: #1d1d1d;
@@ -26,7 +26,8 @@ html {
 }
 /*Main section*/
 
-@media (max-width: 766px) {
+
+@media (max-width: 1000px) {
   .dropdown {
     position: absolute;
     padding-right: 3.5rem;
@@ -45,7 +46,7 @@ html {
 }
 
 section > div {
-  padding-top: 7rem !important;
+  padding-top: 4rem !important;
 }
 
 @media only screen and (max-width: 991px) {
@@ -97,7 +98,7 @@ section > div {
 
 /*color of experience page headings*/
 .my_experience {
-  color: #4e00bb;
+  color: #bb0000;
 }
 
 .sub-heading {

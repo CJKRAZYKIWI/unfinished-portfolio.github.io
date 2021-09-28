@@ -73,7 +73,7 @@ html[data-theme="dark"] {
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px #bb86fc;
+    -webkit-box-shadow: inset 0 0 6px #f0bc5c;
     border-radius: 2px;
     background: #f1f1f1;
 }
@@ -81,13 +81,13 @@ html[data-theme="dark"] {
 ::-webkit-scrollbar-thumb {
     border-radius: 2px;
     max-height: 10px;
-    -webkit-box-shadow: inset 0 0 6px #bb86fc;
-    background: #bb86fc;
+    -webkit-box-shadow: inset 0 0 6px #fcb586;
+    background: #ec4e10;
     transition: 0.3s;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #ca9eff;
+    background: #ffbd9e;
     
 }
 
@@ -116,7 +116,7 @@ body {
 #btnScrollToTop {
     width: 50px;
     height: 50px;
-    background-color: #bb86fc;
+    background-color: #ec640a;
     margin: 8px;
     border: none;
     border-radius: 50%;
@@ -280,17 +280,17 @@ html {
   /* end of dark mode toggle switch button */
 
 html {
-    background-color: #f6f6f6;
+    background-color: #9ccfec;
     transition: background-color .3s;
 }
 
 html[light-mode="dark"] {
-    background-color: #141516;
+    background-color: #033261;
     color: #ced4e2;
 }
 
 .dark-theme {
-    background-color: #2b2a2A;
+    background-color: #000000;
     transition: background-color .3s;
 }
 
@@ -319,58 +319,7 @@ color: #ffffff !important;
 --------------------------------------
 */
 
-.bike {
-    margin-top: 30px;
-    display: block;
-}
-
-#right-wheel,
-#left-wheel {
-    animation: wheel 3s linear infinite;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-#man-bike {
-    animation: bikes 1s ease-in-out infinite alternate;
-    transform-origin: bottom;
-}
-
-#hat {
-    animation: hat 1s ease-in-out infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-@keyframes wheel {
-    from {
-        transform: rotateZ(0deg);
-    }
-    to {
-        transform: rotateZ(360deg);
-    }
-}
-
-@keyframes bikes {
-    from {
-        transform: rotateX(0deg);
-    }
-    to {
-        transform: rotateX(12deg);
-    }
-}
-
-@keyframes hat {
-    from {
-        transform: translateY(0%) rotateZ(0deg);
-    }
-    to {
-        transform: translateY(10%) rotateZ(20deg);
-    }
-}
-
-
-/*
+.
 -------------------------------------
     NAV BAR HIGHTLIGHTING
 --------------------------------------
@@ -391,7 +340,7 @@ color: #ffffff !important;
         margin-right: auto;
         bottom: 0;
         width: 32%;
-        border-bottom: 3px solid #6a00bb;
+        border-bottom: 3px solid #ff0000;
     }
     
     .nav-item-hover::after {
@@ -402,7 +351,7 @@ color: #ffffff !important;
         height: 0.15em;
         bottom: 0;
         width: 0%;
-        background-color: #6a00bb;
+        background-color: #ff0101;
         transition: all ease-in-out 280ms;
     }
     
@@ -509,7 +458,7 @@ color: #ffffff !important;
     font: size 20px;
     line-height: 26px;
     text-align: center;
-    color: #fff;
+    color: rgb(10, 1, 1);
     height: 78px;
     margin: 5px auto 0px;
     display: block;
@@ -529,7 +478,7 @@ color: #ffffff !important;
     padding: 0;
     text-decoration: none;
     text-align: center;
-    color: #fefefe;
+    color: #000000;
     font-size: 1.5625rem;
     font-weight: normal;
     line-height: 2em;
@@ -775,12 +724,12 @@ Rotate Transition in foote Soical Icon
     height: auto;
     width: auto;
     text-align: left;
-    color: #fff;
+    color: rgb(106, 191, 248);
     display: inline;
     font-size: 25px;
     font-weight: 200;
     line-height: 22px;
-    border-bottom: 3px solid #bb86fc;
+    border-bottom: 3px solid #00547a;
 }
 
 .form-header {
@@ -809,7 +758,7 @@ form {
 }
 
 .form-style-6 h1 {
-    background: #bb86fc;
+    background: #55515a;
     font-size: 140%;
     font-weight: 300;
     text-align: center;
@@ -839,7 +788,7 @@ form {
     background: transparent;
     margin-bottom: 4%;
     border: #000;
-    border-bottom: 2px solid #bb86fc;
+    border-bottom: 2px solid #010385;
     padding: 3%;
     color: rgb(107, 105, 105);
     font: 95% Arial, Helvetica, sans-serif;
@@ -870,13 +819,13 @@ form {
     width: 100%;
     margin-top: 2rem;
     padding: 3%;
-    background: #bb86fc;
-    border-bottom: 2px solid #bb86fc;
+    background: #86b9fc;
+    border-bottom: 2px solid #000000;
     border-radius: 23px;
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 

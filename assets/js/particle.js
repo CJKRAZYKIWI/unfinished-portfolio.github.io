@@ -3,37 +3,37 @@
 particlesJS('particles-js', {
 	particles: {
 		number: {
-			value: 140,
+			value: 120,
 			density: {
 				enable: true,
 				value_area: 800
 			}
 		},
 		color: {
-			value: [ '#2EB67D', '#ECB22E', '#E01E5B', '#36C5F0' ]
+			value: [ '#faba7a' ]
 		},
 		shape: {
 			type: 'circle',
 			stroke: {
-				width: 0,
-				color: '#fff'
+				width: 5,
+				color: '#a2e0eb'
 			},
 			polygon: {
-				nb_sides: 5
+				nb_sides: 100
 			},
 			image: {
-				src: 'https://cdn.freebiesupply.com/logos/large/2x/slack-logo-icon.png',
-				width: 100,
+				src: 'https://cdn.freebiesupply.com/logos/large/2xslack-logo-icon.png',
+				width: 50,
 				height: 100
 			}
 		},
 		
 		opacity: {
-			value: 1,
+			value: 10,
 			random: false,
 			anim: {
 				enable: false,
-				speed: 1,
+				speed: 10,
 				opacity_min: 0.1,
 				sync: false
 			}
@@ -50,14 +50,14 @@ particlesJS('particles-js', {
 		},
 		line_linked: {
 			enable: true,
-			distance: 150,
+			distance: 200,
 			color: '#808080',
 			opacity: 0.4,
-			width: 1
+			width: 5
 		},
 		move: {
 			enable: true,
-			speed: 5,
+			speed: 3,
 			direction: 'none',
 			random: false,
 			straight: false,
